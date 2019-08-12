@@ -1,0 +1,75 @@
+.helper{
+    height: 60px;
+    width: 100%;
+}
+
+.charactersSection{
+    margin: 0px;
+}
+
+.characterSectionTitle{
+    display: block;
+    font-size: 50px;
+    color: #ff0f53;
+    font-weight: bold;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.characters{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.character{
+    display: inline-block;
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e5ff;
+}
+
+.character:hover{
+    background-color: #7f7fff;
+}
+
+.Joey{
+    background: url('../Images/joey.jpg');
+
+}
+.Yo_Gi{
+    background: url('../Images/Yu_Gi.jpg');
+
+}
+.Kaiba{
+    background: url('../Images/kaiba.jpg');
+}
+
+.characterImage{
+    height: 300px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin : 15px 0px;
+    background-color: white;
+}
+
+.characterName{
+    font-size: 34px;
+    font-weight: bold;
+    color:  #696969;
+    margin : 0;
+}
+
+.characterBrief{
+    width: 90%;
+    font-size: 18px;
+    text-align: center;
+}
